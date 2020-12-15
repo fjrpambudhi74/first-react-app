@@ -1,0 +1,67 @@
+.header {
+    margin: 20px auto;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+form label {
+    font-size: .9em;
+}
+
+/* Form */
+form {
+    margin: 2% auto;
+    padding: 1em;
+    width: 70%;
+    color: #aaa;
+    border: .1em solid #ddd;
+    border-radius: 4px;
+}
+
+.name {
+    width: 100%;
+}
+
+.name input,
+.submit input,
+textarea {
+    width: 47%;
+    height: 3em;
+    text-indent: .5em;
+    border: .1em solid #ddd;
+    border-radius: 4px;
+    outline-color: #1abc9c;
+}
+
+.name input[type="text"] {
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+.message,
+.submit {
+    margin-top: 1em;
+}
+
+.message textarea,
+.submit input {
+    width: 100%;
+}
+
+.message textarea {
+    height: 8em;
+}
+
+.submit input {
+    background: #1abc9c;
+    color: #fff;
+    border: 0;
+    border-bottom: 4px solid darken(#1abc9c, 7%);
+    font-size: 1em;
+    font-weight: bold;
+
+
+}
